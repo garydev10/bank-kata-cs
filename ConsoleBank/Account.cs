@@ -24,7 +24,7 @@
         }
         private string printStatementText()
         {
-            // lazy balance evaluation and printing
+            // lazy evaluation for balance and printing
             int balance = 0;
             var transactionStrings = new List<string>();
             foreach (var transaction in _transactions)
