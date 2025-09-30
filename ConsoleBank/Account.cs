@@ -1,6 +1,6 @@
 ﻿namespace ConsoleBank
 {
-    public class BankAccountService : IAccountService
+    public class Account : IAccountService
     {
         private readonly string _headerString = "Date       || Amount || Balance";
         private readonly string _inputDateFormat = "dd-MM-yyyy";
